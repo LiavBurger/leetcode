@@ -4,7 +4,6 @@ public class leetcode392 {
         String s = "";
         String t = "ahbgdc";
         System.out.println(isSubsequence(s, t));
-
     }
     public static boolean isSubsequence(String s, String t) {
         if(s.length() > t.length())
